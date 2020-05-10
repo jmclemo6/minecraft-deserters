@@ -1,0 +1,11 @@
+name: Minecraft-Deserters
+version: ${project.version}
+main: io.github.jmclemo6.minecraftdeserters.MinecraftDeserters
+api-version: 1.13
+description: Finds possible deserters of your Minecraft community.
+commands:
+  deserters:
+    usage: /deserters [radius] <- finds all players more than [radius] blocks away from you.
+    permission: minecraft-deserters.use
+    aliases:
+      - finddeserters
